@@ -9,6 +9,10 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.gradient-text1 {
+    background: linear-gradient(to left, #C0B7E8, #8176AF);
+    
+}
 
 .rectangle{
     background: linear-gradient(to  bottom, #3A3456F2, #211E2E);
@@ -18,4 +22,11 @@
 }
 .radius{
     border-radius:  240px 100px 240px 100px ;
+}
+.bg-radius{
+    background: linear-gradient( #211E2E, #433D60, #211E2E);
+}
+
+.bg-img{
+    background-image: url('https://images.pexels.com/photos/1261831/pexels-photo-1261831.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
 }

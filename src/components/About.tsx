@@ -53,7 +53,7 @@ const About = () => {
             dapibus. Sem nulla pha retra diam sit amet nisl suscipit adipiscing
             bibendum. Leo a diam sollicitudi n tempor.
           </p>
-          <Btn text="LET’S GET IN TOUCH" />
+          <Btn text="LET’S GET IN TOUCH"  />
         </div>
         
         <img src={Vector7} alt="" className=" absolute top-4 -left-12 " />

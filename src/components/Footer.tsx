@@ -1,7 +1,12 @@
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <section className=" mt-32">
+      <div className=""></div>
+      <hr />
+      <div className=""></div>
+      
+    </section>
   )
 }
 
