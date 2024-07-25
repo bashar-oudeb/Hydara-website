@@ -6,25 +6,25 @@ const Services = () => {
   return (
     <section className=" relative mt-32 px-20  ">
       <div className=" w-full flex items-center justify-between gap-5">
-        <div className=" w-2/4">
-          <h1 className=" font-Montserrat font-bold text-xl text-gray-300 ">
+        <div className=" md:w-2/4 w-full">
+          <h1 className=" font-Montserrat font-bold text-xl text-gray-300  text-center">
             WHY BUILD
           </h1>
           <div className="  relative">
-            <h1 className=" font-Montserrat font-light text-xl text-gray-400">
+            <h1 className=" font-Montserrat font-light text-xl text-gray-400 text-center ">
               WITH HYDRA?
             </h1>
             <div className="">
               <img
                 src={arrow}
-                className=" w-full h-24 absolute -left-1 -bottom-9 "
+                className=" hidden md:block w-full h-24 absolute -left-1 -bottom-9 "
                 alt=""
               />
             </div>
           </div>
         </div>
         <div className="w-2/4">
-          <p className="font-Montserrat font-normal text-[13px] text-gray-400">
+          <p className=" hidden md:block font-Montserrat font-normal text-[13px] text-gray-400">
             Vitae sapien pellentesque habitant morbi tristique senectus et netus
             et. Feugiat nibh sed pulvinar proin gravida hendrerit lectus. Mi sit
             amet mauris commodo quis imperdiet massa tincidunt nunc. Viverra

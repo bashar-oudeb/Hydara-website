@@ -18,8 +18,8 @@ const Tech = () => {
         </h2>
 
         <div className=" absolute w-14  h-14 rounded-full bg-[#0E0E0E52] z-20 -bottom-7 flex justify-center items-center">
-          <div className=" w-12 h-12 rounded-full  gradient-text1 grid place-items-center">
-            <img src={shape} alt=""  className=""/>
+          <div className=" w-12 h-12 rounded-full  gradient-text1  grid place-items-center">
+            <img src={shape} alt=""  className=" w-6"/>
           </div>
         </div>
       </div>
