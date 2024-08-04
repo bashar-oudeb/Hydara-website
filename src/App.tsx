@@ -9,7 +9,7 @@ import Tech from "./components/Tech"
 
 const App = () => {
   return (
-    <main className=" bg-[#302C42] py-5 ">
+    <main className=" bg-[#302C42] py-5  overflow-hidden">
      <Hero/>
      <About />
      <Services />

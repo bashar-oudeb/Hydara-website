@@ -24,7 +24,10 @@
     border-radius: 100px 100px 100px 240px;
 }
 .radius{
-    border-radius:  240px 100px 240px 100px ;
+    border-radius:  220px 80px 220px 80px ;
+}
+.radius-lg{
+    border-radius:  210px 100px 210px 100px ;
 }
 .radius-sm{
     border-radius:  140px 60px 140px 60px ;
@@ -35,6 +38,8 @@
 
 .bg-img{
     background-image: url('https://images.pexels.com/photos/1261831/pexels-photo-1261831.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+   
 }
 
 
