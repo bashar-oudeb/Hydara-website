@@ -39,7 +39,7 @@ const slides = [
 ];
 
 const Hero = () => {
-  const container = useRef(); // Create a ref for the container element
+  const container = useRef<HTMLDivElement>(null); // Create a ref for the container element
   const [slideIndex, setSlideIndex] = useState(0); // State to manage the current slide index
 
   // GSAP animations

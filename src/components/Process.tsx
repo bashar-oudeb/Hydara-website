@@ -14,7 +14,7 @@ gsap.registerPlugin(ScrollTrigger);
 const Process = () => {
 
 
-  const container = useRef();
+  const container = useRef<HTMLDivElement>(null); // Create a ref for the container element
 
   useEffect(() => {
     const ctx = gsap.context(() => {

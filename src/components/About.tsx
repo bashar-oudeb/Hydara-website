@@ -14,8 +14,8 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 const About = () => {
-  // Create a reference for the container element
-  const container = useRef();
+  const container = useRef<HTMLDivElement>(null); // Create a ref for the container element
+
 
   // UseEffect to run animations when the component mounts
   useEffect(() => {

@@ -13,7 +13,7 @@ gsap.registerPlugin(useGSAP);
 const Navbar = () => {
   const [open, setOpen] = useState(false);
 
-  const container = useRef();
+  const container = useRef<HTMLDivElement>(null); // Create a ref for the container element
 
   useGSAP(
     () => {

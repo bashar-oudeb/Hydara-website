@@ -21,7 +21,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 const Footer = () => {
-  const container = useRef();
+  const container = useRef<HTMLDivElement>(null); // Create a ref for the container element
 
   useEffect(() => {
     const ctx = gsap.context(() => {
